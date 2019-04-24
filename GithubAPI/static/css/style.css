@@ -1,0 +1,122 @@
+body{
+    font: 15px/1.5 Arial,Helvetica, sans-serif;
+    padding:0;
+    margin:0;
+    background:url('../img/body.jpg') ;
+    background:auto;
+}
+/* Global */
+.container{
+    width: 80%;
+    margin: auto;
+    overflow:hidden;
+}
+
+/* Header */
+header{
+    background:#33334d;
+    color:#f2f2f2;
+    padding-top:25px;
+    padding-bottom: 25px;
+    min-height: 70px;
+    border-bottom:#ffff00 6px solid;
+}
+
+header a{
+    color:#f2f2f2;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:15px;
+}
+header ul{
+    margin:0;
+    padding:0;
+}
+
+header li{
+    float:left;
+    display:inline;
+    padding: 22px 20px 0 20px;
+}
+
+header #branding{
+    float:left;
+}
+
+header #branding h1{
+    margin:0;
+    font-size:40px;
+
+}
+
+header nav{
+    float:right;
+}
+
+header .highlight, header .current a{
+    color:#e8491d;
+    font-weight:bold;
+}
+
+header a:hover{
+    color:#0066cc;
+    font-size:20px;
+    font-weight:bold;
+}
+
+/*  showcase */
+#showcase{
+        min-height:200px;
+        background:linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)), url('../img/showcase.jpg');
+        background-size:cover;
+        background-position: 0 -150px;
+        text-align:center;
+        color:#f2f2f2;
+        border-bottom:#ffff00 2px dotted;
+}
+
+#searchBar{
+    min-height:50px;
+    font-family:fangsong;
+    color:#f2f2f2;
+}
+
+#searchBar h1{
+    font-size: 50px;
+    font-variant: small-caps;
+    text-align:center;
+    margin: auto;
+}
+
+#searchBar form{
+    text-align:center;
+    padding:10px;
+}
+
+#searchBar input[type="text"]{
+    padding:4px;
+    height:25px;
+    width:230px;
+}
+
+.button_1{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 27px;
+    width: 78px;
+    border-radius: 12px;
+    border: 0;
+    background: #e8491d;
+    color: #f2f2f2;
+    position: relative;
+    left: 16px;
+    top:5px;
+}
+
+#footer{
+    position: relative;
+    bottom: 0;
+    text-align:center;
+    color:#f2f2f2;
+    top:160px;
+}

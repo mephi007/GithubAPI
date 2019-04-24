@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="company" content="MEPHISTOPHELES.INC">
+        <meta name="author" content="SUMIT KUMAR ROY">
+        <title>Welcome GitSource</title>
+        <link rel = "stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    </head>
+    <body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Git</span> Source</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="#">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Search Github User and See His Efforts</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        </div>
+    </section>
+
+    <section id="searchBar">
+       <div class="container">
+           <h1>Search</h1>
+           <form method="POST", action="searchResult">
+                <input type="text" placeholder="Enter username" name="username">
+               <button type="submit" class="button_1">SEARCH</button>
+           </form>
+       </div>
+    </section>
+
+    <footer id="footer">
+        <p>MEPHISTOPHELES.INC, Copyright &copy; 2019</p>
+    </footer>
+    </body>
+
+</html>

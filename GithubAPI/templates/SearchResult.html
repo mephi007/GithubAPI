@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>searchResult</title>
+</head>
+<header><h1>Result for the UserName</h1></header>
+<body>
+   <h1> Search for {{username}} </h1>
+   <h2>{{name}}</h2>
+   <img src={{img_url}} alt="Girl in a jacket" width="150" height="175">
+   <h3> Working in {{company}}</h3>
+   <h3> Prefferable Location</h3>
+        {% for loc in location %}
+            <h4>{{loc}}</h4>
+        {% endfor %}
+   <span><h3> BIO   </h3><h4> {{bio}}</h4></span>
+   <h3>Repositories  {{repos}}</h3>
+   <form method="POST" action="searchResult/repos">
+       <input type="submit" value="Repository in detail">
+   </form>
+
+</body>
+
+</html>
